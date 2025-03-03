@@ -1,11 +1,11 @@
 "use client";
 
-import { CoolText } from "@/components/text";
+import { GeminiBeams } from "@/components/gemini";
 
 export default function Home() {
 	return (
-		<div className="h-screen flex items-center justify-center bg-gray-50">
-			<CoolText />
+		<div className="bg-gray-950 h-[400vh] w-full flex relative">
+			<GeminiBeams />
 		</div>
 	);
 }
